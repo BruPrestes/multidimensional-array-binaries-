@@ -24,7 +24,9 @@ public class RectangleFinder extends GeometricForms{
 	int retangulo11;
 	int retangulo12;
 	
-	int a; 
+	
+	
+	public int a; 
 	int b;
 	int c;
 	int d;
@@ -44,6 +46,46 @@ public class RectangleFinder extends GeometricForms{
 	int r;
 	int s;
 	int t;
+
+	private String letraA;
+
+	private String letrab;
+
+	private String letrae;
+
+	private String letrad;
+
+	private String letrac;
+
+	private String letraf;
+
+	private String letrag;
+
+	private String letrat;
+
+	private String letras;
+
+	private String letrar;
+
+	private String letraq;
+
+	private String letrap;
+
+	private String letrao;
+
+	private String letran;
+
+	private String letram;
+
+	private String letral;
+
+	private String letrak;
+
+	private String letraj;
+
+	private String letrai;
+
+	private String letrah;
 	
 	
 	
@@ -214,6 +256,29 @@ public class RectangleFinder extends GeometricForms{
 	 }
 	
 
+	 public void String() {
+		 letraA = "C[0][0]\n";
+		 letrab = "C[0][1]";
+		 letrac = "C[0][2]";
+		 letrad = "C[0][3]";
+		 letrae = "C[0][4]";
+		 letraf = "C[1][0]";
+		 letrag = "C[1][1]";
+		 letrah = "C[1][2]";
+		 letrai = "C[1][3]";
+		 letraj = "C[1][4]";
+		 letrak = "C[2][0]";
+		 letral = "C[2][1]";
+		 letram = "C[2][2]";
+		 letran = "C[2][3]";
+		 letrao = "C[2][4]";
+		 letrap = "C[3][0]";
+		 letraq = "C[3][1]";
+		 letrar = "C[3][2]";
+		 letras = "C[3][3]";
+		 letrat = "C[3][4]";
+		 
+	 }
 
 
 	

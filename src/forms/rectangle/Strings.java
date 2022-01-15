@@ -1,5 +1,6 @@
 package forms.rectangle;
 
-public class Strings {
+public class Strings extends RectangleFinder{
 
+	String retangulo1 = "";
 }
