@@ -1,5 +1,6 @@
 package application;
 
+import forms.rectangle.Strings;
 import forms.rectangle.RectangleFinder;
 public class Program {
 
@@ -20,6 +21,8 @@ public class Program {
 		RectangleFinder rect = new RectangleFinder();
 		rect.FinderCalculator(matrizBinaria);
 		
+		Strings st = new Strings();
+		System.out.println(st.getStringVariant1());
 	}
 	
 	

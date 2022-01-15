@@ -47,45 +47,26 @@ public class RectangleFinder extends GeometricForms{
 	int s;
 	int t;
 
-	private String letraA;
-
-	private String letrab;
-
-	private String letrac;
-
-	private String letrad;
-
-	private String letrae;
-
-	private String letraf;
-
-	private String letrag;
-
-	private String letrah;
-
-	private String letrai;
-
-	private String letraj;
-
-	private String letrak;
-
-	private String letral;
-
-	private String letran;
-
-	private String letram;
-
-	private String letrao;
-	
-	private String letrap;
-	
-	private String letraq;
-	
-	private String letrar;
-	
-	private String letras;
-	
-	private String letrat;
+	private String letraA = "[0][0]\n";
+	private String letrab = "[0][1]\n";
+	private String letrac = "[0][2]\n";
+	private String letrad = "[0][3]\n";
+	private String letrae = "[0][4]\n";
+	private String letraf = "[1][0]\n";
+	private String letrag = "[1][1]\n";
+	private String letrah = "[1][2]\n";
+	private String letrai = "[1][3]\n";
+	private String letraj = "[1][4]\n";
+	private String letrak = "[2][0]\n";
+	private String letral = "[2][1]\n";
+	private String letram = "[2][2]\n";
+	private String letran = "[2][3]\n";
+	private String letrao = "[2][4]\n";
+	private String letrap = "[3][0]\n";
+	private String letraq = "[3][1]\n";
+	private String letrar = "[3][2]\n";
+	private String letras = "[3][3]\n";
+	private String letrat = "[3][4]\n";
 	
 	
 	
@@ -535,31 +516,6 @@ public class RectangleFinder extends GeometricForms{
 		 
 	 }
 	
-
-	 public void String() {
-		 letraA = "C[0][0]\n";
-		 letrab = "C[0][1]";
-		 letrac = "C[0][2]";
-		 letrad = "C[0][3]";
-		 letrae = "C[0][4]";
-		 letraf = "C[1][0]";
-		 letrag = "C[1][1]";
-		 letrah = "C[1][2]";
-		 letrai = "C[1][3]";
-		 letraj = "C[1][4]";
-		 letrak = "C[2][0]";
-		 letral = "C[2][1]";
-		 letram = "C[2][2]";
-		 letran = "C[2][3]";
-		 letrao = "C[2][4]";
-		 letrap = "C[3][0]";
-		 letraq = "C[3][1]";
-		 letrar = "C[3][2]";
-		 letras = "C[3][3]";
-		 letrat = "C[3][4]";
-		 
-	 }
-
 
 	
 
