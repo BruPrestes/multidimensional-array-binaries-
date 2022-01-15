@@ -1,7 +1,5 @@
-package application;
+package forms.rectangle;
 
 public class Strings {
 
-	
-	
 }

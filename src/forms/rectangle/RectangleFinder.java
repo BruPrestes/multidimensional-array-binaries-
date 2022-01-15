@@ -10,7 +10,7 @@ public class RectangleFinder extends GeometricForms{
 	//private int[][] C = new int[4][5];
  	
 	List<Integer> retangulos = new ArrayList<>();
-	int primeiroretangulo;
+
 	int retangulo1;
 	int retangulo2;
 	int retangulo3;
