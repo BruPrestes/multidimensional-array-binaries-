@@ -1,4 +1,4 @@
-package application;
+package forms.rectangle;
 
 import java.util.ArrayList;
 import java.util.List;

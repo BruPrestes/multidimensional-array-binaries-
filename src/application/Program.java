@@ -1,5 +1,6 @@
 package application;
 
+import forms.rectangle.RectangleFinder;
 public class Program {
 
 	public static void main(String[] args) {
@@ -13,8 +14,11 @@ public class Program {
 		
 		
 
+		//RectangleFinder rect = new RectangleFinder();
+		//rect.RectangleFinderCalculator(matrizBinaria);
+		
 		RectangleFinder rect = new RectangleFinder();
-		rect.RectangleFinderCalculator(matrizBinaria);
+		rect.FinderCalculator(matrizBinaria);
 		
 	}
 	

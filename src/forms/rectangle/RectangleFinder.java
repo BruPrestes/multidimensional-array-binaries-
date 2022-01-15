@@ -1,11 +1,13 @@
-package application;
+package forms.rectangle;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class RectangleFinder {
+import forms.GeometricForms;
 
-	private int[][] C = new int[4][5];
+public class RectangleFinder extends GeometricForms{
+
+	//private int[][] C = new int[4][5];
  	
 	List<Integer> retangulos = new ArrayList<>();
 	int primeiroretangulo;
@@ -21,14 +23,6 @@ public class RectangleFinder {
 	int retangulo10;
 	int retangulo11;
 	int retangulo12;
-	int retangulo13;
-	int retangulo14;
-	int retangulo15;
-	int retangulo16;
-	int retangulo17;
-	int retangulo18;
-	int retangulo19;
-	int retangulo20;
 	
 	int a; 
 	int b;
@@ -53,7 +47,7 @@ public class RectangleFinder {
 	
 	
 	
-	public void RectangleFinderCalculator(int C[][]) {
+	public void FinderCalculator(int C[][]) {
 		
 		a = C[0][0];
 		b = C[0][1];
@@ -206,6 +200,8 @@ public class RectangleFinder {
 					System.out.println(retangulos);
 	}	
 		
+	
+	
 	
 	 public boolean isQuad (int x) {
 		 
