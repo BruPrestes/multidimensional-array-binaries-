@@ -51,44 +51,324 @@ public class RectangleFinder extends GeometricForms{
 
 	private String letrab;
 
-	private String letrae;
+	private String letrac;
 
 	private String letrad;
 
-	private String letrac;
+	private String letrae;
 
 	private String letraf;
 
 	private String letrag;
 
-	private String letrat;
+	private String letrah;
 
-	private String letras;
+	private String letrai;
 
-	private String letrar;
+	private String letraj;
 
-	private String letraq;
+	private String letrak;
 
-	private String letrap;
-
-	private String letrao;
+	private String letral;
 
 	private String letran;
 
 	private String letram;
 
-	private String letral;
-
-	private String letrak;
-
-	private String letraj;
-
-	private String letrai;
-
-	private String letrah;
+	private String letrao;
+	
+	private String letrap;
+	
+	private String letraq;
+	
+	private String letrar;
+	
+	private String letras;
+	
+	private String letrat;
 	
 	
 	
+	public String getLetraA() {
+		return letraA;
+	}
+
+
+
+
+	public void setLetraA(String letraA) {
+		this.letraA = letraA;
+	}
+
+
+
+
+	public String getLetrab() {
+		return letrab;
+	}
+
+
+
+
+	public void setLetrab(String letrab) {
+		this.letrab = letrab;
+	}
+
+
+
+
+	public String getLetrac() {
+		return letrac;
+	}
+
+
+
+
+	public void setLetrac(String letrac) {
+		this.letrac = letrac;
+	}
+
+
+
+
+	public String getLetrad() {
+		return letrad;
+	}
+
+
+
+
+	public void setLetrad(String letrad) {
+		this.letrad = letrad;
+	}
+
+
+
+
+	public String getLetrae() {
+		return letrae;
+	}
+
+
+
+
+	public void setLetrae(String letrae) {
+		this.letrae = letrae;
+	}
+
+
+
+
+	public String getLetraf() {
+		return letraf;
+	}
+
+
+
+
+	public void setLetraf(String letraf) {
+		this.letraf = letraf;
+	}
+
+
+
+
+	public String getLetrag() {
+		return letrag;
+	}
+
+
+
+
+	public void setLetrag(String letrag) {
+		this.letrag = letrag;
+	}
+
+
+
+
+	public String getLetrah() {
+		return letrah;
+	}
+
+
+
+
+	public void setLetrah(String letrah) {
+		this.letrah = letrah;
+	}
+
+
+
+
+	public String getLetrai() {
+		return letrai;
+	}
+
+
+
+
+	public void setLetrai(String letrai) {
+		this.letrai = letrai;
+	}
+
+
+
+
+	public String getLetraj() {
+		return letraj;
+	}
+
+
+
+
+	public void setLetraj(String letraj) {
+		this.letraj = letraj;
+	}
+
+
+
+
+	public String getLetrak() {
+		return letrak;
+	}
+
+
+
+
+	public void setLetrak(String letrak) {
+		this.letrak = letrak;
+	}
+
+
+
+
+	public String getLetral() {
+		return letral;
+	}
+
+
+
+
+	public void setLetral(String letral) {
+		this.letral = letral;
+	}
+
+
+
+
+	public String getLetran() {
+		return letran;
+	}
+
+
+
+
+	public void setLetran(String letran) {
+		this.letran = letran;
+	}
+
+
+
+
+	public String getLetram() {
+		return letram;
+	}
+
+
+
+
+	public void setLetram(String letram) {
+		this.letram = letram;
+	}
+
+
+
+
+	public String getLetrao() {
+		return letrao;
+	}
+
+
+
+
+	public void setLetrao(String letrao) {
+		this.letrao = letrao;
+	}
+
+
+
+
+	public String getLetrap() {
+		return letrap;
+	}
+
+
+
+
+	public void setLetrap(String letrap) {
+		this.letrap = letrap;
+	}
+
+
+
+
+	public String getLetraq() {
+		return letraq;
+	}
+
+
+
+
+	public void setLetraq(String letraq) {
+		this.letraq = letraq;
+	}
+
+
+
+
+	public String getLetrar() {
+		return letrar;
+	}
+
+
+
+
+	public void setLetrar(String letrar) {
+		this.letrar = letrar;
+	}
+
+
+
+
+	public String getLetras() {
+		return letras;
+	}
+
+
+
+
+	public void setLetras(String letras) {
+		this.letras = letras;
+	}
+
+
+
+
+	public String getLetrat() {
+		return letrat;
+	}
+
+
+
+
+	public void setLetrat(String letrat) {
+		this.letrat = letrat;
+	}
+
+
+
+
 	public void FinderCalculator(int C[][]) {
 		
 		a = C[0][0];
@@ -177,7 +457,7 @@ public class RectangleFinder extends GeometricForms{
 
 					}
 					
-					if (l == 1 
+					if (h == 1 
 							&& i == 1
 							&& n == 1 
 							&& m == 1) {
