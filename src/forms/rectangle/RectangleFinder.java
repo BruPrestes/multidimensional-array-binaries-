@@ -11,21 +11,49 @@ public class RectangleFinder extends GeometricForms{
  	
 	List<Integer> retangulos = new ArrayList<>();
 
-	int retangulo1;
-	int retangulo2;
-	int retangulo3;
-	int retangulo4;
-	int retangulo5;
-	int retangulo6;
-	int retangulo7;
-	int retangulo8;
-	int retangulo9;
-	int retangulo10;
-	int retangulo11;
-	int retangulo12;
+	public List<Integer> getRetangulos() {
+		return retangulos;
+	}
+
+
+
+
+	public void setRetangulos(List<Integer> retangulos) {
+		this.retangulos = retangulos;
+	}
+
+    
+
+
+	int retangulo1 = 0;
+	int retangulo2 = 0;
+    int retangulo3 = 0;
+	int retangulo4 = 0;
+	int retangulo5 = 0;
+	int retangulo6 = 0;
+	int retangulo7 = 0;
+	int retangulo8 = 0;
+	int retangulo9 = 0;
+	int retangulo10 = 0;
+	int retangulo11 = 0;
+	int retangulo12 = 0;
 	
 	
 	
+	public int getRetangulo1() {
+		return retangulo1;
+	}
+
+
+
+
+	public void setRetangulo1(int retangulo1) {
+		this.retangulo1 = retangulo1;
+	}
+
+
+
+
 	public int a; 
 	int b;
 	int c;
@@ -352,6 +380,11 @@ public class RectangleFinder extends GeometricForms{
 
 	public void FinderCalculator(int C[][]) {
 		
+
+
+		
+		
+		
 		a = C[0][0];
 		b = C[0][1];
 		c = C[0][2];
@@ -382,9 +415,10 @@ public class RectangleFinder extends GeometricForms{
 	            		&& g == 1
 						&& f == 1) {
 	            		
-	            		retangulo1 = 4;
+	            		setRetangulo1(4);
 	            		
 	            		if(isQuad(retangulo1) == true) {
+	            			
 	            			retangulos.add(retangulo1);
 	            		}
 	            		
@@ -393,8 +427,15 @@ public class RectangleFinder extends GeometricForms{
 							&& h == 1 
 							&& g == 1) {
 						
-	            		retangulo2 = 4;
-	            		retangulos.add(retangulo2);		
+						retangulo2 = 4;
+						if(isQuad(retangulo2) == true) {
+							
+		            		retangulos.add(retangulo2);	
+	            		}
+						
+						
+						
+	            			
 					}
 					
 					if (c == 1 
@@ -402,8 +443,13 @@ public class RectangleFinder extends GeometricForms{
 							&& i == 1 
 							&& h == 1) {
 						
-	            		retangulo3 = 4;
-	            		retangulos.add(retangulo3);
+						retangulo3 = 4;
+						if(isQuad(retangulo3) == true) {
+							
+		            		retangulos.add(retangulo3);
+	            		}
+						
+	            		
 	        	}
 					
 					if (d == 1 
@@ -411,9 +457,12 @@ public class RectangleFinder extends GeometricForms{
 							&& j == 1 
 							&& i == 1) {
 						
-	            		retangulo4 = 4;
-	            		retangulos.add(retangulo4);
-
+						retangulo4 = 4;
+						if(isQuad(retangulo4) == true) {
+							
+		            		retangulos.add(retangulo4);
+	            		}
+	            		
 					}
 					
 			//RETÂNGULOS LINHA 1 E 2	
@@ -423,8 +472,13 @@ public class RectangleFinder extends GeometricForms{
 							&& l == 1 
 							&& k == 1) {
 						
-	            		retangulo5 = 4;
-	            		retangulos.add(retangulo5);
+						retangulo5 = 4;
+						if(isQuad(retangulo5) == true) {
+							
+		            		retangulos.add(retangulo5);
+	            		}
+						
+	            		
 	            		
 					}
 					
@@ -433,8 +487,12 @@ public class RectangleFinder extends GeometricForms{
 							&& m == 1 
 							&& l == 1) {
 						
-	            		retangulo6 = 4;
-	            		retangulos.add(retangulo6);
+						retangulo6 = 4;
+						if(isQuad(retangulo6) == true) {
+							
+		            		retangulos.add(retangulo6);
+	            		}
+	            		
 
 					}
 					
@@ -443,8 +501,12 @@ public class RectangleFinder extends GeometricForms{
 							&& n == 1 
 							&& m == 1) {
 						
-	            		retangulo7 = 4;
-	            		retangulos.add(retangulo7);
+						retangulo7 = 4;
+						if(isQuad(retangulo7) == true) {
+							
+		            		retangulos.add(retangulo7);
+	            		}
+	            		
 
 					}
 					
@@ -453,8 +515,12 @@ public class RectangleFinder extends GeometricForms{
 							&& o == 1 
 							&& n == 1) {
 						
-	            		retangulo8 = 4;
-	            		retangulos.add(retangulo8);
+						retangulo8 = 4;
+						if(isQuad(retangulo8) == true) {
+							
+		            		retangulos.add(retangulo8);
+	            		}
+	            		
 
 					}
 					
@@ -465,8 +531,12 @@ public class RectangleFinder extends GeometricForms{
 							&& q == 1 
 							&& p == 1) {
 						
-	            		retangulo9 = 4;
-	            		retangulos.add(retangulo9);
+						retangulo9 = 4;
+						if(isQuad(retangulo9) == true) {
+							
+		            		retangulos.add(retangulo9);
+	            		}
+	            		
 
 					}
 					
@@ -475,8 +545,12 @@ public class RectangleFinder extends GeometricForms{
 							&& r == 1 
 							&& q == 1) {
 						
-	            		retangulo10 = 4;
-	            		retangulos.add(retangulo10);
+						retangulo10 = 4;
+						if(isQuad(retangulo10) == true) {
+							
+		            		retangulos.add(retangulo10);
+	            		}
+	            		
 
 					}
 					
@@ -485,20 +559,33 @@ public class RectangleFinder extends GeometricForms{
 							&& s == 1 
 							&& r == 1) {
 						
-	            		retangulo11 = 4;
-	            		retangulos.add(retangulo11);
+						retangulo11 = 4;
+						if(isQuad(retangulo11) == true) {
+							
+		            		retangulos.add(retangulo11);
+	            		}
+	            		
 
 					}
 					
+				
+					
+					
 					if (n == 1 
-							&& o == 1
-							&& t == 1 
+		            		&& o == 1
+		            		&& t == 1
 							&& s == 1) {
-						
-	            		retangulo12 = 4;
-	            		retangulos.add(retangulo12);
-
-					}
+		            		
+		            		retangulo12 = 4;
+		            		
+		            		if(isQuad(retangulo12) == true) {
+		            			
+		            			retangulos.add(retangulo12);
+		            		}
+		            		
+						}
+					
+					
 					
 					System.out.println(retangulos);
 	}	
@@ -516,6 +603,7 @@ public class RectangleFinder extends GeometricForms{
 		 
 	 }
 	
+	 
 
 	
 

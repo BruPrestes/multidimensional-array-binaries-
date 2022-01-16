@@ -2,14 +2,15 @@ package application;
 
 import forms.rectangle.Strings;
 import forms.rectangle.RectangleFinder;
+import forms.rectangle.RectangleVariants;
 public class Program {
 
 	public static void main(String[] args) {
 
 
-		int[][] matrizBinaria =  { {1, 1, 1, 1, 0},
+		int[][] matrizBinaria =  { {1, 1, 1, 1, 1},
 				                   {1, 1, 1, 1, 1},
-				                   {1, 0, 1, 1, 1},
+				                   {1, 0, 0, 1, 1},
 				                   {1, 0, 0, 1, 0} };
 		
 		
@@ -23,6 +24,9 @@ public class Program {
 		
 		Strings st = new Strings();
 		System.out.println(st.getStringVariant1());
+		
+		RectangleVariants rv = new RectangleVariants();
+		rv.RectangleVariantFinder(matrizBinaria);
 	}
 	
 	
