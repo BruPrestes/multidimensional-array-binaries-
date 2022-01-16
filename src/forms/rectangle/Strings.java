@@ -27,6 +27,9 @@ public class Strings extends RectangleFinder {
 	private String stringVariant12 = getLetran() + getLetrao() + getLetrat() + getLetras();
 
 	
+	private String stringVariant17 = getStringVariant2() + getStringVariant3() + getStringVariant4(); 
+	
+	private String stringVariant22 = getStringVariant6() + getStringVariant7() + getStringVariant8();
 	
 	public String getStringVariant2() {
 		return stringVariant2;
@@ -122,5 +125,21 @@ public class Strings extends RectangleFinder {
 
 	public void setStringVariant1(String stringVariant1) {
 		this.stringVariant1 = stringVariant1;
+	}
+
+	public String getStringVariant17() {
+		return stringVariant17;
+	}
+
+	public void setStringVariant17(String stringVariant17) {
+		this.stringVariant17 = stringVariant17;
+	}
+
+	public String getStringVariant22() {
+		return stringVariant22;
+	}
+
+	public void setStringVariant22(String stringVariant22) {
+		this.stringVariant22 = stringVariant22;
 	}
 }
