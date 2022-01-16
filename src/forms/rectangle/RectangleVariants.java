@@ -1,7 +1,6 @@
 package forms.rectangle;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -154,7 +153,66 @@ public class RectangleVariants extends RectangleFinder {
 		
 		boolean variant38 = a == 1 && f == 1 && k == 1 && p == 1;
 		
+		boolean variant39 = b == 1 && g == 1 && l == 1 && q == 1;
 
+		boolean variant40 = c == 1 && h == 1 && m == 1 && r == 1;
+		
+		boolean variant41 = d == 1 && i == 1 && n == 1 && s == 1;
+		
+		boolean variant42 = e == 1 && j == 1 && o == 1 && t == 1;
+
+		boolean var38 = a == 1 && b == 1 && f == 1 && g == 1 && k == 1 && l == 1;
+		
+		boolean var39 = a == 1 && b == 1 && f == 1 && g == 1 && k == 1 && l == 1
+				&& c == 1 && h == 1 && m == 1;
+		
+		boolean var40 = a == 1 && b == 1 && f == 1 && g == 1 && k == 1 && l == 1
+				&& c == 1 && h == 1 && m == 1
+				&& d == 1 && i == 1 && n == 1;
+		
+		boolean var41 = a == 1 && b == 1 && f == 1 && g == 1 && k == 1 && l == 1
+				&& c == 1 && h == 1 && m == 1
+				&& d == 1 && i == 1 && n == 1
+				&& e == 1 && j == 1 && o == 1;
+		
+		boolean var42 = d == 1 && e == 1 && i == 1 && j == 1 && n == 1 && o == 1;
+		
+		boolean var43 = d == 1 && e == 1 && i == 1 && j == 1 && n == 1 && o == 1
+				&& c == 1 && h == 1 && m == 1;
+		
+		boolean var44 = a == 1 && e == 1 && i == 1 && j == 1 && n == 1 && o == 1
+				&& c == 1 && h == 1 && m == 1
+				&& b == 1 && g == 1 && l == 1;
+		
+		boolean var45 = f == 1 && g == 1 && k == 1 && l == 1 && p == 1 && q == 1;
+		
+		boolean var46 = g == 1 && h == 1 && l == 1 && m == 1 && q == 1 && r == 1;
+		
+		boolean var47 = h == 1 && i == 1 && m == 1 && n == 1 && r == 1 && s == 1;
+		
+		boolean var48 = i == 1 && j == 1 && n == 1 && o == 1 && s == 1 && t == 1;
+		
+		boolean var49 = b == 1 && c == 1 && d == 1 && g == 1 && h == 1 && i == 1
+				&& l == 1 && m == 1 && n == 1;
+		
+		boolean var50 = a == 1 && b == 1 && c == 1 && f == 1 && g == 1 && h == 1
+				&& k == 1 && l == 1 && m == 1;
+		
+		boolean var51 = f == 1 && g == 1 && k == 1 && l == 1 && p == 1 && q == 1
+				&& g == 1 && h == 1 && l == 1 && m == 1 && q == 1 && r == 1;
+		
+		boolean var52 = f == 1 && g == 1 && k == 1 && l == 1 && p == 1 && q == 1
+				&& g == 1 && h == 1 && l == 1 && m == 1 && q == 1 && r == 1
+				&& h == 1 && i == 1 && m == 1 && n == 1 && r == 1 && s == 1;
+		
+		boolean var53 = var52 && var48;
+		
+		boolean var54 = var48 && var47;
+		
+		boolean var55 = var54 && var46;
+		
+		
+		
 		if (variant1 == true) {
 			variante1 = 4;
 			variantes.add(variante1);
@@ -384,18 +442,88 @@ public class RectangleVariants extends RectangleFinder {
 
 		}
 		
-		if (variante2 == 4 && variante10 == 4 && variante3 == 4 && variante11 == 4) {
-			variante38 = 12;
-
-			variantes.add(variante38);
-
-		}
-		
-		
 		///////////////////////////////////////////////////////////////////
 		
 		
+		
+		////////////////////////////////////////////////////////////////
 
+		if (var38 == true) {
+			variante38 = 6;
+			variantes.add(variante38);
+		}
+		if (var39 == true) {
+			variante39 = 9;
+			variantes.add(variante39);
+		}
+		if (var40 == true) {
+			variante40 = 12;
+			variantes.add(variante40);
+		}
+		if (var41 == true) {
+			variante41 = 15;
+			variantes.add(variante41);
+		}
+		if (var42 == true) {
+			variante42 = 6;
+			variantes.add(variante42);
+		}
+		if (var43 == true) {
+			variante43 = 9;
+			variantes.add(variante43);
+		}
+		if (var44 == true) {
+			variante44 = 12;
+			variantes.add(variante44);
+		}
+////////////////////////////////////////////////////////////////////////////////
+			
+
+			if (var45 == true) {
+				variante45 = 6;
+				variantes.add(variante45);
+			}
+			if (var46 == true) {
+				variante46 = 6;
+				variantes.add(variante46);
+			}
+			if (var47 == true) {
+				variante47 = 6;
+				variantes.add(variante47);
+			}
+			if (var48 == true) {
+				variante48 = 6;
+				variantes.add(variante48);
+			}
+			if (var49 == true) {
+				variante49 = 9;
+				variantes.add(variante49);
+			}
+			if (var50 == true) {
+				variante50 = 9;
+				variantes.add(variante50);
+			}
+			if (var51 == true) {
+				variante51 = 9;
+				variantes.add(variante51);
+			}
+			if (var52 == true) {
+				variante52 = 12;
+				variantes.add(variante52);
+			}
+			if (var53 == true) {
+				variante53 = 15;
+				variantes.add(variante53);
+			}
+			if (var54 == true) {
+				variante54 = 9;
+				variantes.add(variante54);
+			}
+			if (var55 == true) {
+				variante55 = 12;
+				variantes.add(variante55);
+			}
+			
 		Integer max = variantes.stream().mapToInt(v -> v).max().orElseThrow(NoSuchElementException::new);
 
 		Integer min = variantes.stream().mapToInt(v -> v).min().orElseThrow(NoSuchElementException::new);
@@ -426,3 +554,5 @@ public class RectangleVariants extends RectangleFinder {
 	}
 
 }
+	
+
