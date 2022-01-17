@@ -3,7 +3,6 @@ package forms.rectangle;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
-import forms.rectangle.FillQuad;
 
 
 public class RectangleVariants extends RectangleFinder {
