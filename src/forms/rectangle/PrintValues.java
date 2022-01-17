@@ -35,6 +35,7 @@ public class PrintValues {
 						"Entre com um valor entre 0 e 1 para preencher a matriz de linha " + (i) + " e coluna " + (j));
 
 				// m[i][j] =
+				
 				int aux = sc.nextInt();
 				if (aux != 0 && aux != 1) {
 
@@ -50,7 +51,7 @@ public class PrintValues {
 						}
 					}
 
-				} else
+				} else {
 					m[i][j] = aux;
 				if (i == 0 && j == 0) {
 
@@ -60,8 +61,7 @@ public class PrintValues {
 					System.out.println("Linha 1|_|_|_|_|_|");
 					System.out.println("Linha 2|_|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				} 
 				if (i == 0 && j == 1) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -71,8 +71,8 @@ public class PrintValues {
 					System.out.println("Linha 3|_|_|_|_|_|");
 				}
 
-				else
-					m[i][j] = aux;
+				
+					
 				if (i == 0 && j == 2) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -80,8 +80,8 @@ public class PrintValues {
 					System.out.println("Linha 1|_|_|_|_|_|");
 					System.out.println("Linha 2|_|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				}
+					
 				if (i == 0 && j == 3) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -89,8 +89,8 @@ public class PrintValues {
 					System.out.println("Linha 1|_|_|_|_|_|");
 					System.out.println("Linha 2|_|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				} 
+					
 				if (i == 0 && j == 4) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -102,8 +102,8 @@ public class PrintValues {
 				}
 
 				/// Linha1//////////////////////////////////////
-				else
-					m[i][j] = aux;
+				
+					
 				if (i == 1 && j == 0) {
 
 					System.out.print("Coluna");
@@ -114,8 +114,7 @@ public class PrintValues {
 					System.out.println("Linha 2|_|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
 
-				} else
-					m[i][j] = aux;
+				}
 				if (i == 1 && j == 1) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -124,8 +123,7 @@ public class PrintValues {
 					System.out.println("Linha 1|" + m[1][0] + "|" + m[1][1] + "|_|_|_|");
 					System.out.println("Linha 2|_|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				} 
 				if (i == 1 && j == 2) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -134,8 +132,7 @@ public class PrintValues {
 					System.out.println("Linha 1|" + m[1][0] + "|" + m[1][1] + "|" + m[1][2] + "|_|_|");
 					System.out.println("Linha 2|_|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				} 
 				if (i == 1 && j == 3) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -144,8 +141,7 @@ public class PrintValues {
 					System.out.println("Linha 1|" + m[1][0] + "|" + m[1][1] + "|" + m[1][2] + "|" + m[1][3] + "|_|");
 					System.out.println("Linha 2|_|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				}
 				if (i == 1 && j == 4) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -155,8 +151,7 @@ public class PrintValues {
 							"Linha 1|" + m[1][0] + "|" + m[1][1] + "|" + m[1][2] + "|" + m[1][3] + "|" + m[1][4] + "|");
 					System.out.println("Linha 2|_|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				} 
 				/// Linha2//////////////////////////////////////
 				if (i == 2 && j == 0) {
 
@@ -168,8 +163,7 @@ public class PrintValues {
 							"Linha 1|" + m[1][0] + "|" + m[1][1] + "|" + m[1][2] + "|" + m[1][3] + "|" + m[1][4] + "|");
 					System.out.println("Linha 2|" + m[2][0] + "|_|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				} 
 				if (i == 2 && j == 1) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -179,8 +173,7 @@ public class PrintValues {
 							"Linha 1|" + m[1][0] + "|" + m[1][1] + "|" + m[1][2] + "|" + m[1][3] + "|" + m[1][4] + "|");
 					System.out.println("Linha 2|" + m[2][0] + "|" + m[2][1] + "|_|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				}
 				if (i == 2 && j == 2) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -190,8 +183,7 @@ public class PrintValues {
 							"Linha 1|" + m[1][0] + "|" + m[1][1] + "|" + m[1][2] + "|" + m[1][3] + "|" + m[1][4] + "|");
 					System.out.println("Linha 2|" + m[2][0] + "|" + m[2][1] + "|" + m[2][2] + "|_|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				}
 				if (i == 2 && j == 3) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -201,8 +193,7 @@ public class PrintValues {
 							"Linha 1|" + m[1][0] + "|" + m[1][1] + "|" + m[1][2] + "|" + m[1][3] + "|" + m[1][4] + "|");
 					System.out.println("Linha 2|" + m[2][0] + "|" + m[2][1] + "|" + m[2][2] + "|" + m[2][3] + "|_|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				} 
 				if (i == 2 && j == 4) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -213,8 +204,7 @@ public class PrintValues {
 					System.out.println(
 							"Linha 2|" + m[2][0] + "|" + m[2][1] + "|" + m[2][2] + "|" + m[2][3] + "|" + m[2][4] + "|");
 					System.out.println("Linha 3|_|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				}
 				/// Linha3//////////////////////////////////////
 				if (i == 3 && j == 0) {
 
@@ -227,8 +217,7 @@ public class PrintValues {
 					System.out.println(
 							"Linha 2|" + m[2][0] + "|" + m[2][1] + "|" + m[2][2] + "|" + m[2][3] + "|" + m[2][4] + "|");
 					System.out.println("Linha 3|" + m[3][0] + "|_|_|_|_|");
-				} else
-					m[i][j] = aux;
+				}
 				if (i == 3 && j == 1) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -239,8 +228,7 @@ public class PrintValues {
 					System.out.println(
 							"Linha 2|" + m[2][0] + "|" + m[2][1] + "|" + m[2][2] + "|" + m[2][3] + "|" + m[2][4] + "|");
 					System.out.println("Linha 3|" + m[3][0] + "|" + m[3][1] + "|_|_|_|");
-				} else
-					m[i][j] = aux;
+				} 
 				if (i == 3 && j == 2) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -251,8 +239,7 @@ public class PrintValues {
 					System.out.println(
 							"Linha 2|" + m[2][0] + "|" + m[2][1] + "|" + m[2][2] + "|" + m[2][3] + "|" + m[2][4] + "|");
 					System.out.println("Linha 3|" + m[3][0] + "|" + m[3][1] + "|" + m[3][2] + "|_|_|");
-				} else
-					m[i][j] = aux;
+				}
 				if (i == 3 && j == 3) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -263,8 +250,7 @@ public class PrintValues {
 					System.out.println(
 							"Linha 2|" + m[2][0] + "|" + m[2][1] + "|" + m[2][2] + "|" + m[2][3] + "|" + m[2][4] + "|");
 					System.out.println("Linha 3|" + m[3][0] + "|" + m[3][1] + "|" + m[3][2] + "|" + m[3][3] + "|_|");
-				} else
-					m[i][j] = aux;
+				}	
 				if (i == 3 && j == 4) {
 					System.out.print("Coluna");
 					System.out.println("  0 1 2 3 4");
@@ -276,6 +262,7 @@ public class PrintValues {
 							"Linha 2|" + m[2][0] + "|" + m[2][1] + "|" + m[2][2] + "|" + m[2][3] + "|" + m[2][4] + "|");
 					System.out.println(
 							"Linha 3|" + m[3][0] + "|" + m[3][1] + "|" + m[3][2] + "|" + m[3][3] + "|" + m[3][4] + "|");
+				}
 				}
 
 			}
