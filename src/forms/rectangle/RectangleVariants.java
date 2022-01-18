@@ -537,7 +537,7 @@ public class RectangleVariants extends RectangleFinder {
 		}
 
 		System.out.println();
-		// System.out.println("Todos os elementos abaixo são retângulos" + variantes);
+		System.out.println("Todos os elementos abaixo são retângulos" + variantes);
 		System.out.println("O quadrado de maior área tem tamanho igual a: " + max);
 		System.out.println();
 		System.out.println("O quadrado de menor área tem tamanho igual a: " + min);
