@@ -541,7 +541,7 @@ public class RectangleVariants extends RectangleFinder {
 		
 		
 		if(max == 9000 && min == 9000) {
-			System.out.println("Não existem quadrados possíveis");
+			System.out.println("Não existem retângulos possíveis");
 		}else
 
 		 if (max != min) {
