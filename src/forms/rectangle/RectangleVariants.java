@@ -212,6 +212,9 @@ public class RectangleVariants extends RectangleFinder {
 		
 		boolean var55 = var54 && var46;
 		
+		boolean var56 = l == 1 && m == 1 && n == 1 
+				      && q == 1 && r == 1 && s ==1;
+		
 		
 		
 		if (variant1 == true) {
@@ -525,6 +528,11 @@ public class RectangleVariants extends RectangleFinder {
 				variantes.add(variante55);
 			}
 			
+			if (var56 == true) {
+				variante56 = 6;
+				variantes.add(variante56);
+			}
+			
 		Integer max = variantes.stream().mapToInt(v -> v).max().orElseThrow(NoSuchElementException::new);
 
 		Integer min = variantes.stream().mapToInt(v -> v).min().orElseThrow(NoSuchElementException::new);
@@ -537,11 +545,19 @@ public class RectangleVariants extends RectangleFinder {
 		}
 
 		System.out.println();
-		System.out.println("Todos os elementos abaixo são retângulos" + variantes);
-		System.out.println("O quadrado de maior área tem tamanho igual a: " + max);
-		System.out.println();
-		System.out.println("O quadrado de menor área tem tamanho igual a: " + min);
-
+		
+		if (max != min) {
+			System.out.println("Considerando que é possível se formar retângulos menores dentro de um retângulo maior");
+			System.out.println("O maior quadrado formado tem área: " + max);
+			System.out.println();
+			System.out.println("O menor quadrado formado tem área: " + min);
+		}else {
+			System.out.println("O maior quadrado formado tem área: " + max);
+			System.out.println();
+		}
+		
+		
+		
 	}
 
 	public boolean isQuad(int x) {
