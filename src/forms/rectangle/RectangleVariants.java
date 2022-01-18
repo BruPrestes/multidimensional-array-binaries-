@@ -7,8 +7,6 @@ import java.util.NoSuchElementException;
 
 public class RectangleVariants extends RectangleFinder {
 
-	Strings sg = new Strings();
-
 	int a;
 	int b;
 	int c;
@@ -119,13 +117,6 @@ public class RectangleVariants extends RectangleFinder {
 
 		List<Integer> variantes = new ArrayList<>();
 
-		/*
-		 * a = C[0][0]; b = C[0][1]; c = C[0][2]; d = C[0][3]; e = C[0][4]; f = C[1][0];
-		 * g = C[1][1]; h = C[1][2]; i = C[1][3]; j = C[1][4]; k = C[2][0]; l = C[2][1];
-		 * m = C[2][2]; n = C[2][3]; o = C[2][4]; p = C[3][0]; k = C[3][1]; r = C[3][2];
-		 * s = C[3][3]; t = C[3][4];
-		 */
-		// Adicionando retângulos da RectangleFinder nas variantes
 		boolean variant1 = a == 1 && b == 1 && g == 1 && f == 1;
 
 		boolean variant2 = b == 1 && c == 1 && h == 1 && g == 1;
@@ -149,8 +140,6 @@ public class RectangleVariants extends RectangleFinder {
 		boolean variant11 = m == 1 && n == 1 && s == 1 && r == 1;
 
 		boolean variant12 = n == 1 && o == 1 && t == 1 && s == 1;
-		
-		/////////////////////////////////////////////////////////
 		
 		boolean variant38 = a == 1 && f == 1 && k == 1 && p == 1;
 		
@@ -215,359 +204,358 @@ public class RectangleVariants extends RectangleFinder {
 		boolean var56 = l == 1 && m == 1 && n == 1 
 				      && q == 1 && r == 1 && s ==1;
 		
-		
-		
-		if (variant1 == true) {
-			variante1 = 4;
-			variantes.add(variante1);
-		}
-		if (variant2 == true) {
-			variante2 = 4;
-			variantes.add(variante2);
-		}
-		if (variant3 == true) {
-			variante3 = 4;
-			variantes.add(variante3);
-		}
-		if (variant4 == true) {
-			variante4 = 4;
-			variantes.add(variante4);
-		}
-		if (variant5 == true) {
-			variante5 = 4;
-			variantes.add(variante5);
-		}
-		if (variant6 == true) {
-			variante6 = 4;
-			variantes.add(variante6);
-		}
-		if (variant7 == true) {
-			variante7 = 4;
-			variantes.add(variante7);
-		}
-		if (variant8 == true) {
-			variante8 = 4;
-			variantes.add(variante8);
-		}
-		if (variant9 == true) {
-			variante9 = 4;
-			variantes.add(variante9);
-		}
-		if (variant10 == true) {
-			variante10 = 4;
-			variantes.add(variante10);
-		}
-		if (variant11 == true) {
-			variante11 = 4;
-			variantes.add(variante11);
-		}
-		if (variant12 == true) {
-			variante12 = 4;
-			variantes.add(variante12);
-			// System.out.println(variantes);
-			/// System.out.println(variant13);
-		}
 
-		// Novas variantes
 
-		if (variante1 == 4 && variante2 == 4) {
-			variante13 = 6;
-			variantes.add(variante13);
-
-		}
-
-		if (variante1 == 4 && variante2 == 4 && variante3 == 4) {
-			variante14 = 8;
-			variantes.add(variante14);
-
-		}
-
-		if (variante1 == 4 && variante2 == 4 && variante3 == 4 && variante4 == 4) {
-			variante15 = 10;
-			variantes.add(variante15);
-
-		}
-
-		if (variante3 == 4 && variante4 == 4) {
-			variante16 = 6;
-			variantes.add(variante16);
-
-		}
-
-		if (variante2 == 4 && variante3 == 4 && variante4 == 4) {
-			variante17 = 8;
-			variantes.add(variante17);
-			// System.out.println("Variante 17: \n" + sg.getStringVariant17());
-		}
-
-		/////////////////////////////////////////////////////////////////////////////////
-
-		// Variante 18
-		if (variante5 == 4 && variante6 == 4) {
-			variante18 = 6;
-			variantes.add(variante18);
-
-		}
-
-		if (variante5 == 4 && variante6 == 4 && variante7 == 4) {
-			variante19 = 8;
-			variantes.add(variante19);
-
-		}
-
-		if (variante5 == 4 && variante6 == 4 && variante7 == 4 && variante8 == 4) {
-			variante20 = 10;
-			variantes.add(variante20);
-
-		}
-
-		if (variante7 == 4 && variante8 == 4) {
-			variante21 = 6;
-			variantes.add(variante21);
-
-		}
-
-		if (variante6 == 4 && variante7 == 4 && variante8 == 4) {
-			variante22 = 8;
-
-			variantes.add(variante22);
-
-		}
-
-		if (variante9 == 4 && variante10 == 4) {
-			variante23 = 6;
-
-			variantes.add(variante23);
-
-		}
-
-		if (variante9 == 4 && variante10 == 4 && variante11 == 4) {
-			variante24 = 8;
-
-			variantes.add(variante24);
-
-		}
-
-		if (variante9 == 4 && variante10 == 4 && variante11 == 4 && variante12 == 4) {
-			variante25 = 10;
-
-			variantes.add(variante25);
-
-		}
-
-		if (variante11 == 4 && variante12 == 4) {
-			variante26 = 6;
-
-			variantes.add(variante26);
-
-		}
-
-		if (variante10 == 4 && variante11 == 4 && variante12 == 4) {
-			variante27 = 8;
-
-			variantes.add(variante27);
-
-		}
-
-		if (variante1 == 4 && variante9 == 4) {
-			variante28 = 8;
-
-			variantes.add(variante28);
-
-		}
-
-		if (variante2 == 4 && variante10 == 4) {
-			variante29 = 8;
-
-			variantes.add(variante29);
-
-		}
-
-		if (variante3 == 4 && variante11 == 4) {
-			variante30 = 8;
-
-			variantes.add(variante30);
-
-		}
-
-		if (variante4 == 4 && variante12 == 4) {
-			variante31 = 8;
-
-			variantes.add(variante31);
-
-		}
-
-		////////////////////////////////////////////////////////
-
-		if (variante1 == 4 && variante9 == 4 && variante2 == 4 && variante10 == 4) {
-			variante32 = 12;
-
-			variantes.add(variante32);
-
-		}
-
-		if (variante1 == 4 && variante9 == 4 && variante2 == 4 && variante10 == 4 && variante3 == 4
-				&& variante11 == 4) {
-			variante33 = 16;
-
-			variantes.add(variante33);
-
-		}
-
-		if (variante1 == 4 && variante9 == 4 && variante2 == 4 && variante10 == 4 && variante3 == 4 && variante11 == 4
-				&& variante4 == 4 && variante12 == 4) {
-			variante34 = 20;
-
-			variantes.add(variante34);
-
-		}
-
-		if (variante3 == 4 && variante11 == 4 && variante4 == 4 && variante12 == 4) {
-			variante35 = 12;
-
-			variantes.add(variante35);
-
-		}
-
-		///////////////////////////////////////////////////////
-
-		if (variante3 == 4 && variante11 == 4 && variante4 == 4 && variante12 == 4 && variante2 == 4
-				&& variante10 == 4) {
-			variante36 = 16;
-
-			variantes.add(variante36);
-
-		}
-
-		if (variante2 == 4 && variante10 == 4 && variante3 == 4 && variante11 == 4) {
-			variante37 = 12;
-
-			variantes.add(variante37);
-
-		}
-		
-		///////////////////////////////////////////////////////////////////
-		
-		
-		
-		////////////////////////////////////////////////////////////////
-
-		if (var38 == true) {
-			variante38 = 6;
-			variantes.add(variante38);
-		}
-		if (var39 == true) {
-			variante39 = 9;
-			variantes.add(variante39);
-		}
-		if (var40 == true) {
-			variante40 = 12;
-			variantes.add(variante40);
-		}
-		if (var41 == true) {
-			variante41 = 15;
-			variantes.add(variante41);
-		}
-		if (var42 == true) {
-			variante42 = 6;
-			variantes.add(variante42);
-		}
-		if (var43 == true) {
-			variante43 = 9;
-			variantes.add(variante43);
-		}
-		if (var44 == true) {
-			variante44 = 12;
-			variantes.add(variante44);
-		}
-////////////////////////////////////////////////////////////////////////////////
-			
-
-			if (var45 == true) {
-				variante45 = 6;
-				variantes.add(variante45);
+			if (variant1 == true) {
+				variante1 = 4;
+				variantes.add(variante1);
 			}
-			if (var46 == true) {
-				variante46 = 6;
-				variantes.add(variante46);
+			if (variant2 == true) {
+				variante2 = 4;
+				variantes.add(variante2);
 			}
-			if (var47 == true) {
-				variante47 = 6;
-				variantes.add(variante47);
+			if (variant3 == true) {
+				variante3 = 4;
+				variantes.add(variante3);
 			}
-			if (var48 == true) {
-				variante48 = 6;
-				variantes.add(variante48);
+			if (variant4 == true) {
+				variante4 = 4;
+				variantes.add(variante4);
 			}
-			if (var49 == true) {
-				variante49 = 9;
-				variantes.add(variante49);
+			if (variant5 == true) {
+				variante5 = 4;
+				variantes.add(variante5);
 			}
-			if (var50 == true) {
-				variante50 = 9;
-				variantes.add(variante50);
+			if (variant6 == true) {
+				variante6 = 4;
+				variantes.add(variante6);
 			}
-			if (var51 == true) {
-				variante51 = 9;
-				variantes.add(variante51);
+			if (variant7 == true) {
+				variante7 = 4;
+				variantes.add(variante7);
 			}
-			if (var52 == true) {
-				variante52 = 12;
-				variantes.add(variante52);
+			if (variant8 == true) {
+				variante8 = 4;
+				variantes.add(variante8);
 			}
-			if (var53 == true) {
-				variante53 = 15;
-				variantes.add(variante53);
+			if (variant9 == true) {
+				variante9 = 4;
+				variantes.add(variante9);
 			}
-			if (var54 == true) {
-				variante54 = 9;
-				variantes.add(variante54);
+			if (variant10 == true) {
+				variante10 = 4;
+				variantes.add(variante10);
 			}
-			if (var55 == true) {
-				variante55 = 12;
-				variantes.add(variante55);
+			if (variant11 == true) {
+				variante11 = 4;
+				variantes.add(variante11);
+			}
+			if (variant12 == true) {
+				variante12 = 4;
+				variantes.add(variante12);
+			}
+
+			// Novas variantes
+
+			if (variante1 == 4 && variante2 == 4) {
+				variante13 = 6;
+				variantes.add(variante13);
+
+			}
+
+			if (variante1 == 4 && variante2 == 4 && variante3 == 4) {
+				variante14 = 8;
+				variantes.add(variante14);
+
+			}
+
+			if (variante1 == 4 && variante2 == 4 && variante3 == 4 && variante4 == 4) {
+				variante15 = 10;
+				variantes.add(variante15);
+
+			}
+
+			if (variante3 == 4 && variante4 == 4) {
+				variante16 = 6;
+				variantes.add(variante16);
+
+			}
+
+			if (variante2 == 4 && variante3 == 4 && variante4 == 4) {
+				variante17 = 8;
+				variantes.add(variante17);
+			}
+
+			/////////////////////////////////////////////////////////////////////////////////
+
+			// Variante 18
+			if (variante5 == 4 && variante6 == 4) {
+				variante18 = 6;
+				variantes.add(variante18);
+
+			}
+
+			if (variante5 == 4 && variante6 == 4 && variante7 == 4) {
+				variante19 = 8;
+				variantes.add(variante19);
+
+			}
+
+			if (variante5 == 4 && variante6 == 4 && variante7 == 4 && variante8 == 4) {
+				variante20 = 10;
+				variantes.add(variante20);
+
+			}
+
+			if (variante7 == 4 && variante8 == 4) {
+				variante21 = 6;
+				variantes.add(variante21);
+
+			}
+
+			if (variante6 == 4 && variante7 == 4 && variante8 == 4) {
+				variante22 = 8;
+
+				variantes.add(variante22);
+
+			}
+
+			if (variante9 == 4 && variante10 == 4) {
+				variante23 = 6;
+
+				variantes.add(variante23);
+
+			}
+
+			if (variante9 == 4 && variante10 == 4 && variante11 == 4) {
+				variante24 = 8;
+
+				variantes.add(variante24);
+
+			}
+
+			if (variante9 == 4 && variante10 == 4 && variante11 == 4 && variante12 == 4) {
+				variante25 = 10;
+
+				variantes.add(variante25);
+
+			}
+
+			if (variante11 == 4 && variante12 == 4) {
+				variante26 = 6;
+
+				variantes.add(variante26);
+
+			}
+
+			if (variante10 == 4 && variante11 == 4 && variante12 == 4) {
+				variante27 = 8;
+
+				variantes.add(variante27);
+
+			}
+
+			if (variante1 == 4 && variante9 == 4) {
+				variante28 = 8;
+
+				variantes.add(variante28);
+
+			}
+
+			if (variante2 == 4 && variante10 == 4) {
+				variante29 = 8;
+
+				variantes.add(variante29);
+
+			}
+
+			if (variante3 == 4 && variante11 == 4) {
+				variante30 = 8;
+
+				variantes.add(variante30);
+
+			}
+
+			if (variante4 == 4 && variante12 == 4) {
+				variante31 = 8;
+
+				variantes.add(variante31);
+
+			}
+
+			////////////////////////////////////////////////////////
+
+			if (variante1 == 4 && variante9 == 4 && variante2 == 4 && variante10 == 4) {
+				variante32 = 12;
+
+				variantes.add(variante32);
+
+			}
+
+			if (variante1 == 4 && variante9 == 4 && variante2 == 4 && variante10 == 4 && variante3 == 4
+					&& variante11 == 4) {
+				variante33 = 16;
+
+				variantes.add(variante33);
+
+			}
+
+			if (variante1 == 4 && variante9 == 4 && variante2 == 4 && variante10 == 4 && variante3 == 4 && variante11 == 4
+					&& variante4 == 4 && variante12 == 4) {
+				variante34 = 20;
+
+				variantes.add(variante34);
+
+			}
+
+			if (variante3 == 4 && variante11 == 4 && variante4 == 4 && variante12 == 4) {
+				variante35 = 12;
+
+				variantes.add(variante35);
+
+			}
+
+			///////////////////////////////////////////////////////
+
+			if (variante3 == 4 && variante11 == 4 && variante4 == 4 && variante12 == 4 && variante2 == 4
+					&& variante10 == 4) {
+				variante36 = 16;
+
+				variantes.add(variante36);
+
+			}
+
+			if (variante2 == 4 && variante10 == 4 && variante3 == 4 && variante11 == 4) {
+				variante37 = 12;
+
+				variantes.add(variante37);
+
 			}
 			
-			if (var56 == true) {
-				variante56 = 6;
-				variantes.add(variante56);
-			}
+			///////////////////////////////////////////////////////////////////
 			
-		Integer max = variantes.stream().mapToInt(v -> v).max().orElseThrow(NoSuchElementException::new);
+			
+			
+			////////////////////////////////////////////////////////////////
 
-		Integer min = variantes.stream().mapToInt(v -> v).min().orElseThrow(NoSuchElementException::new);
-
-		for (int u = 0; u < 4; u++) {
-			for (int u2 = 0; u2 < 5; u2++) {
-				System.out.print(C[u][u2] + " ");
+			if (var38 == true) {
+				variante38 = 6;
+				variantes.add(variante38);
 			}
-			System.out.println(" ");
-		}
+			if (var39 == true) {
+				variante39 = 9;
+				variantes.add(variante39);
+			}
+			if (var40 == true) {
+				variante40 = 12;
+				variantes.add(variante40);
+			}
+			if (var41 == true) {
+				variante41 = 15;
+				variantes.add(variante41);
+			}
+			if (var42 == true) {
+				variante42 = 6;
+				variantes.add(variante42);
+			}
+			if (var43 == true) {
+				variante43 = 9;
+				variantes.add(variante43);
+			}
+			if (var44 == true) {
+				variante44 = 12;
+				variantes.add(variante44);
+			}
+	////////////////////////////////////////////////////////////////////////////////
+				
 
-		System.out.println();
+				if (var45 == true) {
+					variante45 = 6;
+					variantes.add(variante45);
+				}
+				if (var46 == true) {
+					variante46 = 6;
+					variantes.add(variante46);
+				}
+				if (var47 == true) {
+					variante47 = 6;
+					variantes.add(variante47);
+				}
+				if (var48 == true) {
+					variante48 = 6;
+					variantes.add(variante48);
+				}
+				if (var49 == true) {
+					variante49 = 9;
+					variantes.add(variante49);
+				}
+				if (var50 == true) {
+					variante50 = 9;
+					variantes.add(variante50);
+				}
+				if (var51 == true) {
+					variante51 = 9;
+					variantes.add(variante51);
+				}
+				if (var52 == true) {
+					variante52 = 12;
+					variantes.add(variante52);
+				}
+				if (var53 == true) {
+					variante53 = 15;
+					variantes.add(variante53);
+				}
+				if (var54 == true) {
+					variante54 = 9;
+					variantes.add(variante54);
+				}
+				if (var55 == true) {
+					variante55 = 12;
+					variantes.add(variante55);
+				}
+				
+				if (var56 == true) {
+					variante56 = 6;
+					variantes.add(variante56);
+				}
+
 		
-		if (max != min) {
+			
+		//Integer max = variantes.stream().mapToInt(v -> v).max().orElseThrow(NoSuchElementException::new);
+			
+			
+		Integer max = variantes.stream().mapToInt(v -> v).max().orElse(9000);
+
+		Integer min = variantes.stream().mapToInt(v -> v).min().orElse(9000);
+
+
+			for (int u = 0; u < 4; u++) {
+				for (int u2 = 0; u2 < 5; u2++) {
+					System.out.print(C[u][u2] + " ");
+				}
+				System.out.println(" ");
+			}
+
+			System.out.println();
+	
+		
+		
+		if(max == 9000 && min == 9000) {
+			System.out.println("Não existem quadrados possíveis");
+		}else
+
+		 if (max != min) {
 			System.out.println("Considerando que é possível se formar retângulos menores dentro de um retângulo maior");
-			System.out.println("O maior quadrado formado tem área: " + max);
+			System.out.println("O maior retângulo formado tem área: " + max);
 			System.out.println();
-			System.out.println("O menor quadrado formado tem área: " + min);
+			System.out.println("O menor retângulo formado tem área: " + min);
 		}else {
-			System.out.println("O maior quadrado formado tem área: " + max);
+			System.out.println("O maior retângulo formado tem área: " + max);
 			System.out.println();
 		}
 		
 		
 		
-	}
-
-	public boolean isQuad(int x) {
-
-		if (x == 4) {
-			return true;
-		} else {
-			return false;
-		}
-
 	}
 
 }
