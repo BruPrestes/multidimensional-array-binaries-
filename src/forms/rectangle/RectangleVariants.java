@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 
-public class RectangleVariants extends RectangleFinder {
+public class RectangleVariants /*extends RectangleFinder*/ {
 
 	int a;
 	int b;
